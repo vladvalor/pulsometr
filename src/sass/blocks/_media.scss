@@ -1,1 +1,150 @@
-@media (max-width:1200px)
+
+@media (max-width: 991px) {
+    .title {
+        &_left {
+            font-size: 33px;
+            text-align: center;
+        }
+    }
+    .consultation {
+        &__descr {
+            text-align: center;
+        }
+    }
+    .feed-form {
+        margin: 0 auto;
+    }
+    .catalog {
+        &__content {
+            justify-content: center;
+        }
+        &-item {
+            margin-right: 10px;
+        }
+    
+    }
+
+}
+
+@media (max-width: 767px) {
+    .header {
+        &__phone {
+            font-size: 17px;
+        }
+    }
+    .promo {
+        padding: 10px 10px 40px 10px;
+        &__wrapper {
+            align-items: center;
+        }
+    }
+
+    .title {
+        &_left {
+            font-size: 26px;
+        }
+    }
+    .carousel {
+        &__inner {
+            width: 575px;
+        }
+    }
+    .catalog {
+        &__tab {
+            width: 165px;
+            font-size: 16px;
+        }
+    }
+
+}
+
+@media (max-width:575px) {
+    .promo {
+        padding: 10px 10px 40px 10px;
+        &__wrapper {
+            display: block;
+            text-align: center;
+            margin-top: 50px;
+        }
+        &__header {
+            line-height: 31px;
+            font-size: 32px;
+        }
+        &__subheader {
+            font-size: 22px;
+        }
+        &__icons {
+            width: auto;
+        }
+        .button_main {
+            width: 259px;
+            height: 44px;
+            font-size: 17px;
+            margin-top: 100px;
+        }
+    }
+    .header {
+        flex-direction: column;
+        &__logo {
+            img {
+                width: 80;
+            }
+        }
+        &__contacts {
+            align-items: center;
+            button {
+                width: 147px;
+            }
+        }
+        &__phone {
+            font-size: 17px;
+        }
+        &__official {
+            width: 180px;
+        }
+    }
+    .advantages {
+        padding: 49px 0 56px 0;
+        &__icons {
+            margin-top: 46px;
+        }
+        &__subtitle {
+            font-size: 16px;
+            margin-top: 24px;
+        }
+
+    }
+    .title {
+        font-size: 26px;
+        &_left {
+            line-height: 33px;
+            font-size: 21px;
+        }
+    }
+
+    .carousel {
+        &__inner {
+            width: 320px;
+        }
+    }
+
+    .catalog {
+        &__tabs {
+            margin-top: 35px;
+        }
+        &__tab {
+            width: 90px;
+            font-size: 10px;
+        }
+    }
+    .title {
+        font-size: 21px;
+    }
+
+    .footer {
+        &__info {
+            width: 320px;
+        }
+    }
+
+}

@@ -4,12 +4,21 @@
 }
 
 .container {
+    position: relative;
     max-width: 950px;
     margin: 0 auto;
 }
 
-@import 'src/sass/blocks/promo';
-@import 'src/sass/blocks/header';
-@import 'src/sass/blocks/buttons';
-@import 'src/sass/blocks/advantages';
-@import 'src/sass/blocks/title';
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
+@import 'blocks/advantages';
+@import 'blocks/title';
+@import 'blocks/consultation';
+@import 'blocks/forms';
+@import 'blocks/carousel';
+@import 'blocks/catalog';
+@import 'blocks/feedback';
+@import 'blocks/footer';
+@import 'blocks/modal';
+@import 'blocks/media';
